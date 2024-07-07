@@ -42,6 +42,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 }
 
 .apresentacao_conteudo{
@@ -81,12 +82,12 @@ font-size: 1.5rem;
     gap: 32px;
 }
 
-.apresentacao_links_links{
+.apresentacao_links_navegacao{
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-terciaria);
-    width: 50%px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     font-weight: 600;
@@ -114,4 +115,10 @@ font-size: 1.5rem;
     font-family:var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .apresentacao{
+        flex-direction: column-reverse;
+    }
 }
