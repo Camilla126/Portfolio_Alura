@@ -118,6 +118,12 @@ font-size: 1.5rem;
 }
 
 @media (max-width: 1200px) {
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
     .apresentacao{
         flex-direction: column-reverse;
     }
